@@ -1,0 +1,26 @@
+.header {
+    max-height: 10%;
+    background-color: var(--headColor);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid rgb(64, 24, 78);
+}
+
+.primaryName {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 2.2rem;
+}
+
+.primaryName:hover,
+.navbar li:hover {
+    cursor: pointer;
+}

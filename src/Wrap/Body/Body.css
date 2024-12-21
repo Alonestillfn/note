@@ -1,0 +1,75 @@
+.diaries {
+    height: 90%;
+    display: flex;
+}
+
+.diaries-left {
+    width: 30%;
+    background-color: var(--diariesLeftColor)
+}
+
+.diaries-left-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--diariesLeftNavbarColor);
+    margin-left: 55%;
+    margin-bottom: 10px;
+}
+
+.diaries-left-navbar select {
+    background-color: var(--diariesLeftNavbarColor);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.diaries-find,
+.diaries-favourite,
+.diaries-add{
+    padding: 2px 8px;
+    border-left: 1px var(--borderColor) solid;
+    font-size: 1.6rem;
+}
+
+.diaries-find:hover,
+.diaries-favourite:hover,
+.diaries-add:hover{
+    cursor: pointer;
+    background-color: var(--hoverColor);
+}
+
+.diaries-left-body
+{
+    margin-left: 30%;
+}
+
+.diaries-left-item
+{
+    padding-bottom: 10px;
+}
+
+.diaries-left-item-date{
+    font-weight: 500;
+}
+
+.diaries-left-item-title{
+    margin-left: 10%;
+    font-size: 1.8rem;
+}
+
+/* right */
+
+.diaries-right {
+    width: 100%;
+}
+
+.diaries-right-navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 5% 1% 0;
+}
+
+.diaries-right-type{
+    margin: 0 6%;
+}

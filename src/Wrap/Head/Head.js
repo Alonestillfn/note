@@ -1,4 +1,4 @@
-import '/Head.css'
+import './Head.css'
 
 function Head()
 {
@@ -9,12 +9,17 @@ function Head()
             </div>
             <div className='navbar'>
                 <ul>
-                    <li>Diaries</li>
+                    <li>
+                        <a href='/'>Diaries</a>
+                    </li>
                     <li>Setting</li>
                     <li>Theme</li>
-                    <li>Diaries</li>
+                    <li>Collections</li>
                 </ul>
+                
             </div>
         </div>
     )
 }
+
+export default Head
