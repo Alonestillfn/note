@@ -1,0 +1,51 @@
+.diaries-left-body
+{
+    margin-left: 15%;
+    width: 85%;
+}
+
+.diaries-left-item
+{
+    padding: 5px 10px;
+    margin-top: 5px;
+    background-color:antiquewhite;
+    position: relative;
+    border-radius: 5px;
+    border-right: 5px solid black;
+    cursor: pointer;
+}
+
+.diaries-left-item:hover .diaries-left-close{
+    display: block;
+}
+
+.diaries-left-item-date{
+    font-weight: 600;
+}
+
+.diaries-left-item-icon{
+    font-size: 1.6rem;
+    margin-right: 6px;
+    text-align: center;
+}
+
+.diaries-left-item-title{
+    margin-left: 10%;
+    font-size: 1.8rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.diaries-left-close{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    color: #6b6969;
+    display: none;
+}
+
+.diaries-left-close:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

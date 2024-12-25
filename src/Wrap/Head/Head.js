@@ -1,4 +1,5 @@
 import './Head.css'
+import { NavLink } from 'react-router-dom'
 
 function Head()
 {
@@ -10,7 +11,7 @@ function Head()
             <div className='navbar'>
                 <ul>
                     <li>
-                        <a href='/'>Diaries</a>
+                        <NavLink to='/' className={({isActive}) => (isActive ? 'active' : "")}>Diaries</NavLink>
                     </li>
                     <li>Setting</li>
                     <li>Theme</li>

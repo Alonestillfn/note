@@ -1,0 +1,76 @@
+.add-diaries{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 5% 0;
+    height: 90%;
+
+}
+
+.diaries-right-navbar-icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.fa-underline {
+    font-size: 1.7rem;
+}
+
+.diaries-icon-item{
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+#add-diaries-date,
+#add-diaries-title,
+.editor-container {
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    color: rgb(46, 46, 46);
+}
+
+#add-diaries-date{
+    padding: 15px;
+    font-size: 2.4rem;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+}
+
+#add-diaries-title{
+    padding: 15px;
+    font-size: 2.2rem;
+    margin: 5px 0;
+}
+
+.editor-container{
+    padding: 15px 15px 50px;
+    font-size: 2rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    color: black;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.add-diaries-button{
+    align-self: flex-end;    
+    padding: 5px;
+    margin-top: 5px;
+    background-color: antiquewhite;;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.add-diaries-button:hover {
+    opacity: 0.8;
+}
+
+.image-preview {
+    background-size: cover;
+    max-width: 300px;
+}
