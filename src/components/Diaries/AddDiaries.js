@@ -140,7 +140,6 @@ function AddDiaries({ diaries, setDiaries, setShowAddDiaries })
 
                 <button
                     onClick={handleSubmit}
-                    value={diaries}
                     className="add-diaries-button"
                 >
                     Add diary

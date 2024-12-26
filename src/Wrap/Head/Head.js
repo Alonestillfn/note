@@ -9,15 +9,12 @@ function Head()
                 My Diary
             </div>
             <div className='navbar'>
-                <ul>
-                    <li>
-                        <NavLink to='/' className={({isActive}) => (isActive ? 'active' : "")}>Diaries</NavLink>
-                    </li>
-                    <li>Setting</li>
-                    <li>Theme</li>
-                    <li>Collections</li>
-                </ul>
-                
+                <nav>
+                    <NavLink className='navbarItem' to='/'>Home</NavLink>
+                    <NavLink className='navbarItem' to='/setting'>Setting</NavLink>
+                    <NavLink className='navbarItem' to='/collection'>Collection</NavLink>
+                    <NavLink className='navbarItem' to='/theme'>Theme</NavLink>
+                </nav>
             </div>
         </div>
     )

@@ -1,0 +1,31 @@
+.SettingLeftSelect{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-top: 13%;
+}
+
+.activeSettingLeft{
+    background-color: var(--settingColor);
+    border-radius: 5px;
+}
+
+.settingLeftItem{
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.settingLeftItem:hover {
+    background-color: var(--settingColor);
+    border-radius: 5px;
+}
+
+.settingLeftIcon{
+    margin-right: 5px;
+    font-size: 1.8rem;
+}

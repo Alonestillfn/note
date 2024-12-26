@@ -1,6 +1,6 @@
 
 .contentDiary{
-    margin-left: 5%;
+    margin: 0 5%;
     overflow: scroll;
     scrollbar-width: none;
     height: 100%;
@@ -20,7 +20,7 @@
 
 .contentDiary-content{
     margin: 10px 0;
-    
+    text-align:justify;
 }
 
 .contentDiaryImage{

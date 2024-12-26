@@ -4,6 +4,11 @@
     width: 85%;
 }
 
+.activeDiary {
+    background-color: #aac1dd !important;
+    border-right: 5px solid rgb(159, 201, 53) !important;
+}
+
 .diaries-left-item
 {
     padding: 5px 10px;
@@ -11,8 +16,10 @@
     background-color:antiquewhite;
     position: relative;
     border-radius: 5px;
-    border-right: 5px solid black;
+    border-right: 5px solid rgb(226, 124, 22);
     cursor: pointer;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .diaries-left-item:hover .diaries-left-close{

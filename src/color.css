@@ -1,8 +1,9 @@
 :root {
-    --backgroundColor: #d6c698;
+    --backgroundColor: #e2dcc5;
     --headColor: rgb(171, 128, 55);
     --hoverColor: rgb(199, 190, 125);
     --borderColor: #aaa;
-    --diariesLeftColor: rgb(201, 190, 133);
+    --diariesLeftColor: rgb(45, 44, 42);
     --diariesLeftNavbarColor: antiquewhite;
+    --settingColor: rgb(58, 129, 129);
 } 

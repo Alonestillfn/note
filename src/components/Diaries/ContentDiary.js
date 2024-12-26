@@ -14,7 +14,7 @@ function ContentDiary({ showAddDiaries, selectDiary })
                         alt="diary-image"
                     />
                     )}
-                    <p className='contentDiary-content'>{selectDiary.content || "No content available"}</p>
+                    <p className='contentDiary-content'>{selectDiary.content}</p>
                 </div>
             ) : (
                 <p className='detailDiaries'>Select a diary to see detail</p>

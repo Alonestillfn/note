@@ -1,11 +1,12 @@
 .diaries {
-    height: 90%;
+    height: 93%;
     display: flex;
 }
 
 .diaries-left {
-    width: 30%;
-    background-color: var(--diariesLeftColor)
+    max-width: 25%;
+    min-width: 25%;
+    background-color: var(--diariesLeftColor);
 }
 
 .diaries-left-navbar{
